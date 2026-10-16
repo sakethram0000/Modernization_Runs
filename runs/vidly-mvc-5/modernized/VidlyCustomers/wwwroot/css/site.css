@@ -1,0 +1,80 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    color: #222;
+    background: #fff;
+}
+
+.navbar {
+    background: #222;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.navbar a {
+    color: #fff;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.navbar .nav {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 8px 0 0;
+}
+
+.container {
+    width: min(960px, calc(100% - 32px));
+    margin: 24px auto;
+}
+
+.btn-primary {
+    background: #337ab7;
+    color: #fff;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    padding: 6px 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors,
+.field-validation-error {
+    color: #a94442;
+}
+
+footer {
+    color: #777;
+}
