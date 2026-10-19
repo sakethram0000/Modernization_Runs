@@ -1,3 +1,14 @@
+# Modernization runs
+
+Each outcome has its own branch.
+
+| Branch | What it contains |
+|---|---|
+| `vidly-customers` | Vidly Customers slice |
+| `checklists` | ChecklistsWebApp Checklists slice |
+
+`main` still holds the Vidly files below, same as `vidly-customers`. Open the `checklists` branch for the latest run.
+
 # Vidly Customers Run
 
 This repo is the Customers slice from the Vidly modernization test. It is here so the team can review the reports, the new app, and the screenshots before the next repo is tested.
