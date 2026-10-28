@@ -1,0 +1,108 @@
+﻿Controller Controllers\AccountController.cs: old=[Login,VerifyCode,Register,ConfirmEmail,ForgotPassword,ForgotPasswordConfirmation,ResetPassword,ResetPasswordConfirmation,ExternalLogin,SendCode,ExternalLoginCallback,ExternalLoginConfirmation,LogOff,ExternalLoginFailure] mapped=[Login,VerifyCode,Register,ConfirmEmail,ForgotPassword,ForgotPasswordConfirmation,ResetPassword,ResetPasswordConfirmation,ExternalLogin,SendCode,ExternalLoginCallback,ExternalLoginConfirmation,LogOff,ExternalLoginFailure] out-of-scope=[]
+Controller Controllers\Apis\ChecklistsController.cs: old=[Delete] mapped=[Delete] out-of-scope=[]
+Controller Controllers\Apis\TasksController.cs: old=[Delete,Check,Uncheck] mapped=[Delete,Check,Uncheck] out-of-scope=[]
+Controller Controllers\ChecklistsController.cs: old=[Index,New,Save,Edit] mapped=[Index,New,Save,Edit] out-of-scope=[]
+Controller Controllers\ManageController.cs: old=[Index,RemoveLogin,AddPhoneNumber,EnableTwoFactorAuthentication,DisableTwoFactorAuthentication,VerifyPhoneNumber,RemovePhoneNumber,ChangePassword,SetPassword,ManageLogins,LinkLogin,LinkLoginCallback] mapped=[Index,RemoveLogin,AddPhoneNumber,EnableTwoFactorAuthentication,DisableTwoFactorAuthentication,VerifyPhoneNumber,RemovePhoneNumber,ChangePassword,SetPassword,ManageLogins,LinkLogin,LinkLoginCallback] out-of-scope=[]
+Controller Controllers\TasksController.cs: old=[Index,New,Save,Edit] mapped=[Index,New,Save,Edit] out-of-scope=[]
+Whole app: 6 legacy entry points checked
+Signed in through http://localhost:5181/Account/Login (landing page http://localhost:5181/Home returned: The remote server returned an error: (404) Not Found.)
+Found 'My Checklists - Checklists' on http://localhost:5181/
+Found 'checklist_logo.png' on http://localhost:5181/
+Found 'Checklists' on http://localhost:5181/
+Found 'Hello Alex Author!' on http://localhost:5181/
+Found 'Change Password' on http://localhost:5181/
+Found 'Log out' on http://localhost:5181/
+Found 'id="logoutForm"' on http://localhost:5181/
+Found '- Checklists' on http://localhost:5181/
+Found 'Site.css' on http://localhost:5181/
+Found 'My Checklists' on http://localhost:5181/
+Found 'Create new list' on http://localhost:5181/
+Found 'id="checklists"' on http://localhost:5181/
+Found 'Packing list' on http://localhost:5181/
+Found 'title="Edit"' on http://localhost:5181/
+Found 'title="Delete"' on http://localhost:5181/
+Found 'Are you sure that you want to delete the checklist?' on http://localhost:5181/
+Found 'url: "api/checklists/"' on http://localhost:5181/
+Found 'New checklist' on http://localhost:5181/Checklists/New
+Found 'Name' on http://localhost:5181/Checklists/New
+Found 'name="Name"' on http://localhost:5181/Checklists/New
+Found 'name="Id"' on http://localhost:5181/Checklists/New
+Found 'name="__RequestVerificationToken"' on http://localhost:5181/Checklists/New
+Found 'Save' on http://localhost:5181/Checklists/New
+Found 'Cancel' on http://localhost:5181/Checklists/New
+Found 'Modify checklist name' on http://localhost:5181/Checklists/Edit/1
+Found 'value="Packing list"' on http://localhost:5181/Checklists/Edit/1
+Found 'Packing list' on http://localhost:5181/checklists/1/tasks
+Found 'Add Task' on http://localhost:5181/checklists/1/tasks
+Found 'id="todo-items"' on http://localhost:5181/checklists/1/tasks
+Found 'Passport' on http://localhost:5181/checklists/1/tasks
+Found 'Charger' on http://localhost:5181/checklists/1/tasks
+Found 'js-check-toggle' on http://localhost:5181/checklists/1/tasks
+Found 'Are you sure that you want to delete the to-do item?' on http://localhost:5181/checklists/1/tasks
+Found 'New Task' on http://localhost:5181/checklists/1/tasks/new
+Found 'Title' on http://localhost:5181/checklists/1/tasks/new
+Found 'name="Title"' on http://localhost:5181/checklists/1/tasks/new
+Found 'name="ChecklistId"' on http://localhost:5181/checklists/1/tasks/new
+Found 'Save' on http://localhost:5181/checklists/1/tasks/new
+Found 'Cancel' on http://localhost:5181/checklists/1/tasks/new
+Found 'Modify Task' on http://localhost:5181/checklists/1/tasks/edit/1
+Found 'value="Passport"' on http://localhost:5181/checklists/1/tasks/edit/1
+Found 'Log in.' on http://localhost:5181/Account/Login
+Found 'Email' on http://localhost:5181/Account/Login
+Found 'name="Email"' on http://localhost:5181/Account/Login
+Found 'Password' on http://localhost:5181/Account/Login
+Found 'name="Password"' on http://localhost:5181/Account/Login
+Found 'Remember me?' on http://localhost:5181/Account/Login
+Found 'name="RememberMe"' on http://localhost:5181/Account/Login
+Found 'value="Log in"' on http://localhost:5181/Account/Login
+Found 'Create an account' on http://localhost:5181/Account/Login
+Found 'Create an account.' on http://localhost:5181/Account/Register
+Found 'Full name' on http://localhost:5181/Account/Register
+Found 'name="FullName"' on http://localhost:5181/Account/Register
+Found 'Confirm password' on http://localhost:5181/Account/Register
+Found 'name="ConfirmPassword"' on http://localhost:5181/Account/Register
+Found 'value="Create account"' on http://localhost:5181/Account/Register
+Found 'Forgot your password?.' on http://localhost:5181/Account/ForgotPassword
+Found 'Enter your email.' on http://localhost:5181/Account/ForgotPassword
+Found 'value="Email Link"' on http://localhost:5181/Account/ForgotPassword
+Found 'Forgot Password Confirmation.' on http://localhost:5181/Account/ForgotPasswordConfirmation
+Found 'Please check your email to reset your password.' on http://localhost:5181/Account/ForgotPasswordConfirmation
+Found 'Reset password.' on http://localhost:5181/Account/ResetPassword?code=preview
+Found 'Reset your password.' on http://localhost:5181/Account/ResetPassword?code=preview
+Found 'name="Code"' on http://localhost:5181/Account/ResetPassword?code=preview
+Found 'value="Reset"' on http://localhost:5181/Account/ResetPassword?code=preview
+Found 'Reset password confirmation.' on http://localhost:5181/Account/ResetPasswordConfirmation
+Found 'click here to log in' on http://localhost:5181/Account/ResetPasswordConfirmation
+Found 'Login Failure.' on http://localhost:5181/Account/ExternalLoginFailure
+Found 'Unsuccessful login with service.' on http://localhost:5181/Account/ExternalLoginFailure
+Found 'Error.' on http://localhost:5181/Account/ConfirmEmail
+Found 'An error occurred while processing your request.' on http://localhost:5181/Account/ConfirmEmail
+Found 'My Account.' on http://localhost:5181/Manage
+Found 'Change your account settings' on http://localhost:5181/Manage
+Found 'Password:' on http://localhost:5181/Manage
+Found 'Change your password' on http://localhost:5181/Manage
+Found 'External Logins:' on http://localhost:5181/Manage
+Found 'Manage' on http://localhost:5181/Manage
+Found 'Two-Factor Authentication:' on http://localhost:5181/Manage
+Found 'There are no two-factor authentication providers configured.' on http://localhost:5181/Manage
+Found 'Change Password' on http://localhost:5181/Manage/ChangePassword
+Found 'Current password' on http://localhost:5181/Manage/ChangePassword
+Found 'name="OldPassword"' on http://localhost:5181/Manage/ChangePassword
+Found 'Confirm new password' on http://localhost:5181/Manage/ChangePassword
+Found 'name="NewPassword"' on http://localhost:5181/Manage/ChangePassword
+Found 'value="Change password"' on http://localhost:5181/Manage/ChangePassword
+Found 'Create Password.' on http://localhost:5181/Manage/SetPassword
+Found 'Create Local Login' on http://localhost:5181/Manage/SetPassword
+Found 'value="Set password"' on http://localhost:5181/Manage/SetPassword
+Found 'Phone Number.' on http://localhost:5181/Manage/AddPhoneNumber
+Found 'Add a phone number' on http://localhost:5181/Manage/AddPhoneNumber
+Found 'name="Number"' on http://localhost:5181/Manage/AddPhoneNumber
+Found 'Verify Phone Number.' on http://localhost:5181/Manage/VerifyPhoneNumber?phoneNumber=5550100
+Found 'Enter verification code' on http://localhost:5181/Manage/VerifyPhoneNumber?phoneNumber=5550100
+Found 'name="phoneNumber"' on http://localhost:5181/Manage/VerifyPhoneNumber?phoneNumber=5550100
+Found 'Manage your external logins.' on http://localhost:5181/Manage/ManageLogins
+Found 'There are no external authentication services configured.' on http://localhost:5181/Manage/ManageLogins
+Stylesheet loaded http://localhost:5181/Content/bootstrap.css (127317 bytes)
+Stylesheet loaded http://localhost:5181/Content/bootstrap-paper.css (179125 bytes)
+Stylesheet loaded http://localhost:5181/Content/Site.css (2660 bytes)
+=== PARITY PASSED ===

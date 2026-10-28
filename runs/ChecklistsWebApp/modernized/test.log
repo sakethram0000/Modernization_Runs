@@ -1,0 +1,5 @@
+﻿Test run for C:\Users\Saketh.Ragi\Projects\Modernization_skills\runs\ChecklistsWebApp\modernized\ChecklistsModern.Tests\bin\Debug\net10.0\ChecklistsModern.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\Saketh.Ragi\Projects\Modernization_skills\runs\ChecklistsWebApp\modernized\TestResults\results.trx
+
+Passed!  - Failed:     0, Passed:   152, Skipped:     0, Total:   152, Duration: 46 s - ChecklistsModern.Tests.dll (net10.0)

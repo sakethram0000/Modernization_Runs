@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChecklistsModern.Tests/ChecklistsModern.Tests.csproj" />
+  <Project Path="ChecklistsModern/ChecklistsModern.csproj" />
+</Solution>

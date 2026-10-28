@@ -1,0 +1,33 @@
+@model ChecklistFormViewModel
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div class="page-header">
+    <h2>@Model.Title</h2>
+</div>
+
+@using (Html.BeginForm("Save", "Checklists"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control"})
+        <span>
+            @Html.ValidationMessageFor(m => m.Name)
+        </span>
+    </div>
+
+    @Html.HiddenFor(m => m.Id);
+    @Html.AntiForgeryToken()
+    
+    <ul class="list-inline">
+        <li>
+            <button type="submit" class="btn btn-primary">Save</button>        
+        </li>
+        <li>
+            @Html.ActionLink("Cancel", "Index", "Checklists", new {@class = "btn btn-link"})
+        </li>
+    </ul>
+    
+}

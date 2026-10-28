@@ -1,0 +1,67 @@
+﻿US-SF-01|Anonymous navbar shows brand, Register and Log in; footer shown|shown
+US-SF-01|Signed-in navbar shows Hello Alex Author!, Change Password, Log out|shown
+US-SF-01|bootstrap.css, bootstrap-paper.css and Site.css load (200)|shown
+US-SF-02|/ shows My Checklists|shown
+US-SF-02|/Home returns 404|shown
+US-SF-03|Error view shows "An error occurred while processing your request." inside the layout|shown
+US-AC-01|Login form shows Email, Password, Remember me?|shown
+US-AC-01|Correct login with ReturnUrl=/Manage redirects to /Manage|shown
+US-AC-01|Correct login with no return URL redirects to /Home (legacy)|shown
+US-AC-01|Wrong password shows Invalid login attempt.|shown
+US-AC-01|Two-factor user is sent to /Account/SendCode|shown
+US-AC-02|Valid registration redirects to / and the navbar shows Hello Walker Preview!|shown
+US-AC-02|Duplicate email shows "is already taken."|shown
+US-AC-03|Log out (POST) redirects to / and / then sends to login|shown
+US-AC-03|GET /Account/LogOff returns 404|shown
+US-AC-04|Unknown email shows the Forgot Password Confirmation page|shown
+US-AC-05|ResetPassword without code shows the error page|shown
+US-AC-05|ResetPassword with a code shows the reset form|shown
+US-AC-05|Reset for unknown email goes to ResetPasswordConfirmation|shown
+US-AC-06|ConfirmEmail with a bad code shows the error page|shown
+US-AC-07|SendCode after the password step lists Email Code|shown
+US-AC-07|Choosing Email Code goes to VerifyCode|shown
+US-AC-07|Wrong code shows Invalid code.|shown
+US-AC-08|ExternalLoginFailure shows Unsuccessful login with service.|shown
+US-AC-08|ExternalLoginCallback with no external sign-in redirects to /Account/Login|shown
+US-MG-01|Manage shows Password, External Logins, Two-Factor sections and the status message|shown
+US-MG-01|Anonymous /Manage redirects to login|shown
+US-MG-02|Wrong current password shows Incorrect password.|shown
+US-MG-03|Set password for a user who has one shows User already has a password set.|shown
+US-MG-04|ManageLogins says no external services are configured|shown
+US-MG-05|Valid number redirects to VerifyPhoneNumber|shown
+US-MG-05|Wrong code shows Failed to verify phone|shown
+US-MG-06|Enable two-factor redirects to /Manage|shown
+US-MG-06|Disable two-factor redirects to /Manage|shown
+US-CL-01|Author sees Packing list, not Old list (deleted) or Other list (other user)|shown
+US-CL-01|Each checklist has Edit and Delete controls|shown
+US-CL-01|Empty user sees You don't have any checklists.|shown
+US-CL-02|Saving "Walkthrough list" redirects to / and the list shows it|shown
+US-CL-02|Empty name shows The Name field is required.|shown
+US-CL-03|Edit form shows the current name|shown
+US-CL-03|Another user opening Edit is sent to login|shown
+US-CL-03|Rename saves and the list shows Walkthrough renamed|shown
+US-CL-04|Another user deleting gets 401|shown
+US-CL-04|Author delete returns 204 and the list no longer shows it|shown
+US-CL-05|List page has the confirm text and the api/checklists/ script|shown
+US-TK-01|Task page shows Packing list heading, Add Task, Passport and Charger, not Old task|shown
+US-TK-01|Charger checkbox is checked|shown
+US-TK-01|Another user is sent to login|shown
+US-TK-02|New Task form shows Title, hidden ChecklistId 1, Save, Cancel|shown
+US-TK-02|Title input has no maxlength (legacy behavior)|shown
+US-TK-02|Saving Sunscreen redirects to /checklists/1/tasks and the list shows it|shown
+US-TK-03|Edit form for Passport shows Modify Task and value Passport|shown
+US-TK-03|Edit of Passport under checklist 3 is 404|shown
+US-TK-04|Another user can add a task to checklist 1 through Save (legacy gap)|shown
+US-TK-05|Another user deleting a task gets 401|shown
+US-TK-05|Author delete returns 204 and Sunscreen leaves the list|shown
+US-TK-06|Checking Passport returns 200 and the box is checked on reload|shown
+US-TK-06|Checking the deleted task returns 400 {"Message":"Cannot check a deleted item"}|shown
+US-TK-07|Unchecking Passport returns 204 and the box is clear on reload|shown
+US-TK-07|Another user unchecking gets 401|shown
+US-XD-01|Nina registers, creates Nina's list and sees it; the author does not|shown
+US-XD-02|Following the list link opens its task page with the heading and the new task|shown
+US-XD-04|The author checking Nina's task gets 401; Nina gets 200|shown
+US-XD-03|After deleting Nina's list it leaves / but its task page still opens|shown
+US-XD-05|After changing the password the navbar still shows Hello Nina New!|shown
+evidence|AC-04 status 200
+evidence|other-user Edit Location http://localhost:5181/Account/Login?ReturnUrl=%2FChecklists%2FEdit%2F1
